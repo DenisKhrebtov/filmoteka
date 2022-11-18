@@ -6,14 +6,14 @@ import { cleanerMarkup } from './cleanerMarkup';
 import { Notify } from 'notiflix';
 
 if (
-  window.location.pathname === '/Devs-ua-Project-JS/index.html' ||
+  window.location.pathname === '/filmoteka/index.html' ||
   window.location.pathname === '/index.html'
 ) {
   refs.cardListEl.addEventListener('click', onYoutubeClick);
 }
 
 if (
-  window.location.pathname === '/Devs-ua-Project-JS/my-library.html' ||
+  window.location.pathname === '/filmoteka/my-library.html' ||
   window.location.pathname === '/my-library.html'
 ) {
   refs.cardListElLibrary.addEventListener('click', onYoutubeClick);

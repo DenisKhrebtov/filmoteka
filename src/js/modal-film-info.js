@@ -22,13 +22,13 @@ export const refs = {
 // Добавление слушателей для открытия/закрытия модального окна
 if (
   window.location.pathname === '/index.html' ||
-  window.location.pathname === '/Devs-ua-Project-JS/index.html'
+  window.location.pathname === '/filmoteka/index.html'
 ) {
   refs.filmList.addEventListener('click', onFilmCardClick);
 }
 
 if (
-  window.location.pathname === '/Devs-ua-Project-JS/my-library.html' ||
+  window.location.pathname === '/filmoteka/my-library.html' ||
   window.location.pathname === '/my-library.html'
 ) {
   refs.cardListElLibrary.addEventListener('click', onFilmCardClick);

@@ -73,8 +73,7 @@ function onInfoFilmWrapClick(e) {
 
           setStatusRemove(watchedBtn);
           if (
-            window.location.pathname ===
-              '/Devs-ua-Project-JS/my-library.html' ||
+            window.location.pathname === '/filmoteka/my-library.html' ||
             window.location.pathname === '/my-library.html'
           ) {
             if (localStorage.getItem('Library') === 'watched') {
@@ -85,8 +84,7 @@ function onInfoFilmWrapClick(e) {
           removeObjFilm(localStorageData.watchedFilms, idFilmWatched);
           // localStorage.removeItem('localStorageData');
           if (
-            window.location.pathname ===
-              '/Devs-ua-Project-JS/my-library.html' ||
+            window.location.pathname === '/filmoteka/my-library.html' ||
             window.location.pathname === '/my-library.html'
           ) {
             if (localStorage.getItem('Library') === 'watched') {
@@ -129,8 +127,7 @@ function onInfoFilmWrapClick(e) {
 
           setStatusRemove(queueBtn);
           if (
-            window.location.pathname ===
-              '/Devs-ua-Project-JS/my-library.html' ||
+            window.location.pathname === '/filmoteka/my-library.html' ||
             window.location.pathname === '/my-library.html'
           ) {
             if (localStorage.getItem('Library') === 'queue') {
@@ -141,8 +138,7 @@ function onInfoFilmWrapClick(e) {
           removeObjFilm(localStorageData.queueFilms, idFilmQueue);
           localStorage.removeItem('localStorageData');
           if (
-            window.location.pathname ===
-              '/Devs-ua-Project-JS/my-library.html' ||
+            window.location.pathname === '/filmoteka/my-library.html' ||
             window.location.pathname === '/my-library.html'
           ) {
             if (localStorage.getItem('Library') === 'queue') {
